@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\gr3-projektni-zadatak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\usermanagementadminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,32 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "userManagementAdminForm.Designer.cs",
-              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.Designer.cs",
-              "RelativeDocumentMoniker": "userManagementAdminForm.Designer.cs",
-              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.Designer.cs",
-              "RelativeToolTip": "userManagementAdminForm.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwEEBAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T18:46:32.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "userManagementAdminForm.cs",
               "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs",
               "RelativeDocumentMoniker": "userManagementAdminForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs",
               "RelativeToolTip": "userManagementAdminForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwHQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T18:26:08.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "userManagementAdminForm.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs",
               "RelativeDocumentMoniker": "userManagementAdminForm.cs",
@@ -78,21 +61,22 @@
               "RelativeDocumentMoniker": "LoginForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs",
               "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwEQAAAAYAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T01:16:46.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs [Design]",
               "RelativeToolTip": "LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T00:43:58.076Z"
+              "WhenOpened": "2024-05-03T00:43:58.076Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

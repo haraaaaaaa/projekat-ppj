@@ -33,6 +33,7 @@
             adminMenuProducts = new ToolStripButton();
             adminMenuOrders = new ToolStripButton();
             groupBox = new GroupBox();
+            textBoxIDSearch = new TextBox();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -51,13 +52,13 @@
             textBoxSurname = new TextBox();
             textBoxCity = new TextBox();
             textBoxAddress = new TextBox();
-            dataGridView = new DataGridView();
+            userGridView = new DataGridView();
             buttonSearch = new Button();
             textBoxSurnameSearch = new TextBox();
             textBoxNameSearch = new TextBox();
             adminMenu.SuspendLayout();
             groupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)userGridView).BeginInit();
             SuspendLayout();
             // 
             // adminMenu
@@ -77,6 +78,7 @@
             adminMenuProducts.Name = "adminMenuProducts";
             adminMenuProducts.Size = new Size(106, 22);
             adminMenuProducts.Text = "Upravljaj artiklima";
+            adminMenuProducts.Click += adminMenuProducts_Click;
             // 
             // adminMenuOrders
             // 
@@ -86,9 +88,11 @@
             adminMenuOrders.Name = "adminMenuOrders";
             adminMenuOrders.Size = new Size(126, 22);
             adminMenuOrders.Text = "Upravljaj narudbzama";
+            adminMenuOrders.Click += adminMenuOrders_Click;
             // 
             // groupBox
             // 
+            groupBox.Controls.Add(textBoxIDSearch);
             groupBox.Controls.Add(label8);
             groupBox.Controls.Add(label7);
             groupBox.Controls.Add(label6);
@@ -107,7 +111,7 @@
             groupBox.Controls.Add(textBoxSurname);
             groupBox.Controls.Add(textBoxCity);
             groupBox.Controls.Add(textBoxAddress);
-            groupBox.Controls.Add(dataGridView);
+            groupBox.Controls.Add(userGridView);
             groupBox.Controls.Add(buttonSearch);
             groupBox.Controls.Add(textBoxSurnameSearch);
             groupBox.Controls.Add(textBoxNameSearch);
@@ -118,6 +122,14 @@
             groupBox.TabIndex = 1;
             groupBox.TabStop = false;
             groupBox.Text = "Kreiranje / Azuriranje Novog Kupca";
+            // 
+            // textBoxIDSearch
+            // 
+            textBoxIDSearch.Location = new Point(31, 49);
+            textBoxIDSearch.Name = "textBoxIDSearch";
+            textBoxIDSearch.PlaceholderText = "ID ?";
+            textBoxIDSearch.Size = new Size(62, 23);
+            textBoxIDSearch.TabIndex = 25;
             // 
             // label8
             // 
@@ -172,7 +184,6 @@
             label3.Size = new Size(37, 15);
             label3.TabIndex = 19;
             label3.Text = "Grad:";
-            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -200,6 +211,7 @@
             buttonCreate.TabIndex = 16;
             buttonCreate.Text = "Kreiraj kupca";
             buttonCreate.UseVisualStyleBackColor = true;
+            buttonCreate.Click += buttonCreate_Click;
             // 
             // buttonUpdate
             // 
@@ -209,6 +221,7 @@
             buttonUpdate.TabIndex = 15;
             buttonUpdate.Text = "Azuriraj podatke";
             buttonUpdate.UseVisualStyleBackColor = true;
+            buttonUpdate.Click += buttonUpdate_Click;
             // 
             // textBoxID
             // 
@@ -266,55 +279,55 @@
             textBoxAddress.Size = new Size(113, 23);
             textBoxAddress.TabIndex = 7;
             // 
-            // dataGridView
+            // userGridView
             // 
-            dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Location = new Point(30, 106);
-            dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(511, 132);
-            dataGridView.TabIndex = 3;
+            userGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            userGridView.Location = new Point(30, 106);
+            userGridView.Name = "userGridView";
+            userGridView.Size = new Size(511, 132);
+            userGridView.TabIndex = 3;
             // 
             // buttonSearch
             // 
             buttonSearch.Font = new Font("Segoe UI", 9F);
-            buttonSearch.Location = new Point(277, 50);
+            buttonSearch.Location = new Point(434, 49);
             buttonSearch.Name = "buttonSearch";
             buttonSearch.Size = new Size(107, 23);
             buttonSearch.TabIndex = 2;
             buttonSearch.Text = "Trazi";
             buttonSearch.UseVisualStyleBackColor = true;
+            buttonSearch.Click += buttonSearch_Click;
             // 
             // textBoxSurnameSearch
             // 
-            textBoxSurnameSearch.Location = new Point(149, 50);
+            textBoxSurnameSearch.Location = new Point(218, 49);
             textBoxSurnameSearch.Name = "textBoxSurnameSearch";
-            textBoxSurnameSearch.PlaceholderText = "Prezime";
+            textBoxSurnameSearch.PlaceholderText = "Prezime ?";
             textBoxSurnameSearch.Size = new Size(113, 23);
             textBoxSurnameSearch.TabIndex = 1;
             // 
             // textBoxNameSearch
             // 
-            textBoxNameSearch.Location = new Point(30, 50);
+            textBoxNameSearch.Location = new Point(99, 49);
             textBoxNameSearch.Name = "textBoxNameSearch";
-            textBoxNameSearch.PlaceholderText = "Ime";
+            textBoxNameSearch.PlaceholderText = "Ime ?";
             textBoxNameSearch.Size = new Size(113, 23);
             textBoxNameSearch.TabIndex = 0;
             // 
-            // AdminForm
+            // userManagementAdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(621, 540);
             Controls.Add(groupBox);
             Controls.Add(adminMenu);
-            Name = "AdminForm";
+            Name = "userManagementAdminForm";
             Text = "Upravljanje korisnicima";
-            Load += AdminForm_Load;
             adminMenu.ResumeLayout(false);
             adminMenu.PerformLayout();
             groupBox.ResumeLayout(false);
             groupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)userGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -325,7 +338,7 @@
         private ToolStripButton adminMenuProducts;
         private ToolStripButton adminMenuOrders;
         private GroupBox groupBox;
-        private DataGridView dataGridView;
+        private DataGridView userGridView;
         private Button buttonSearch;
         private TextBox textBoxSurnameSearch;
         private TextBox textBoxNameSearch;
@@ -347,5 +360,6 @@
         private Label label6;
         private Label label5;
         private Label label8;
+        private TextBox textBoxIDSearch;
     }
 }

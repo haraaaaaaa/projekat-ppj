@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace gr3_projektni_zadatak
 {
-    public partial class CustomerForm : Form
+    public partial class userManagementAdminForm : Form
     {
-        public CustomerForm()
+        public userManagementAdminForm()
         {
             InitializeComponent();
+        }
+
+        private void AdminForm_Load(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

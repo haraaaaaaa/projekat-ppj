@@ -1,6 +1,6 @@
 ﻿namespace gr3_projektni_zadatak
 {
-    partial class CustomerForm
+    partial class createOrderCustomerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            customerMenu = new MenuStrip();
-            newOrder = new ToolStripMenuItem();
-            viewOrders = new ToolStripMenuItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(createOrderCustomerForm));
+            customerMenu = new ToolStrip();
+            customerMenuShowOrders = new ToolStripButton();
             customerMenu.SuspendLayout();
             SuspendLayout();
             // 
             // customerMenu
             // 
-            customerMenu.Items.AddRange(new ToolStripItem[] { newOrder, viewOrders });
+            customerMenu.Items.AddRange(new ToolStripItem[] { customerMenuShowOrders });
             customerMenu.Location = new Point(0, 0);
             customerMenu.Name = "customerMenu";
-            customerMenu.Size = new Size(314, 24);
+            customerMenu.Size = new Size(314, 25);
             customerMenu.TabIndex = 0;
-            customerMenu.Text = "menuStrip1";
+            customerMenu.Text = "toolStrip1";
             // 
-            // newOrder
+            // customerMenuShowOrders
             // 
-            newOrder.Name = "newOrder";
-            newOrder.Size = new Size(116, 20);
-            newOrder.Text = "NOVA NARUDŽBA";
-            // 
-            // viewOrders
-            // 
-            viewOrders.Name = "viewOrders";
-            viewOrders.Size = new Size(127, 20);
-            viewOrders.Text = "PREGLED NARUDŽBI";
+            customerMenuShowOrders.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            customerMenuShowOrders.Image = (Image)resources.GetObject("customerMenuShowOrders.Image");
+            customerMenuShowOrders.ImageTransparentColor = Color.Magenta;
+            customerMenuShowOrders.Name = "customerMenuShowOrders";
+            customerMenuShowOrders.Size = new Size(93, 22);
+            customerMenuShowOrders.Text = "Prikaz Narudzbi";
             // 
             // CustomerForm
             // 
@@ -61,9 +58,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(314, 211);
             Controls.Add(customerMenu);
-            MainMenuStrip = customerMenu;
             Name = "CustomerForm";
-            Text = "CustomerForm";
+            Text = "Kreiranje narudzbe";
             customerMenu.ResumeLayout(false);
             customerMenu.PerformLayout();
             ResumeLayout(false);
@@ -72,8 +68,7 @@
 
         #endregion
 
-        private MenuStrip customerMenu;
-        private ToolStripMenuItem newOrder;
-        private ToolStripMenuItem viewOrders;
+        private ToolStrip customerMenu;
+        private ToolStripButton customerMenuShowOrders;
     }
 }

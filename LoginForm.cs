@@ -15,20 +15,22 @@ namespace gr3_projektni_zadatak
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            ErrorProvider errorProvider = new ErrorProvider();
+            /*ErrorProvider errorProvider = new ErrorProvider();
             errorProvider.Clear();
 
             String username = textBoxUsername.Text;
             String password = textBoxPassword.Text;
 
-            String query = "SELECT user_id, username, password, role, CONCAT(name, ' ', surname) FROM users WHERE username = '" + username + "' ";
+            String query = "SELECT user_id, username, password, CONCAT(name, ' ', surname) FROM users WHERE username = '" + username + "' ";
 
             try {
-                MySqlConnection con = new MySqlConnection(connString);
-                con.Open();
+                MySqlConnection conn = new MySqlConnection(connString);
+                conn.Open();
 
-                MySqlCommand cmd = new MySqlCommand(query, con);
+                MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
+
+                MessageBox.Show(reader[0].ToString() + reader[1].ToString() + reader[2].ToString() + reader[3].ToString());
 
                 if (!reader.HasRows) {
                     errorProvider.SetError(textBoxUsername, "Korisnik sa tim korisničkim imenom ne postoji.");
@@ -37,9 +39,9 @@ namespace gr3_projektni_zadatak
                     reader.Read();
                     
                     if (password == reader[2].ToString()) {
-                        MessageBox.Show("Uspješno ste logovani " + reader[4].ToString());
+                        MessageBox.Show("Uspješno ste logovani " + reader[3].ToString());
 
-                        if (reader[3].ToString() == "admin") {
+                        if (reader[0].ToString() == "1") {
                             this.Hide();
                             AdminForm adminForm = new AdminForm();
                             adminForm.Show();
@@ -56,11 +58,15 @@ namespace gr3_projektni_zadatak
                 }
 
                 reader.Close();
-                con.Close();
+                conn.Close();
             }
             catch (Exception ex) {
                 MessageBox.Show(ex.Message);
-            }
+            }*/
+
+            createOrderCustomerForm customerForm = new createOrderCustomerForm();
+            customerForm.Show();
+            this.Hide();
         }
     }
 }

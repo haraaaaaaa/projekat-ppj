@@ -21,6 +21,11 @@ namespace gr3_projektni_zadatak
             InitializeComponent();
         }
 
+        private void orderManagementAdminForm_Load(object sender, EventArgs e)
+        {
+            showOrders();
+        }
+
         private void buttonDeleteOrder_Click(object sender, EventArgs e)
         {
             deleteOrder();
@@ -64,7 +69,7 @@ namespace gr3_projektni_zadatak
                 orderDataGrid.DataSource = table;
 
                 dataAdapter.Dispose();
-                connection.Close() ;
+                connection.Close();
             }
             catch (Exception ex)
             {
@@ -87,5 +92,6 @@ namespace gr3_projektni_zadatak
             productManagementAdminForm productManagementAdminForm = new productManagementAdminForm();
             productManagementAdminForm.Show();
         }
+
     }
 }

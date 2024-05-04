@@ -12,7 +12,7 @@ namespace gr3_projektni_zadatak
         }
 
         public static String connString = "Server=localhost; Port=3306; Database=gr3-projektni-zadatak; Uid=grupa3; Pwd=grupa3";
-
+        public static String userId;
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             ErrorProvider errorProvider = new ErrorProvider();
@@ -29,6 +29,7 @@ namespace gr3_projektni_zadatak
 
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
+                reader.Read();
 
                 MessageBox.Show(reader[0].ToString() + reader[1].ToString() + reader[2].ToString() + reader[3].ToString());
 
@@ -36,8 +37,9 @@ namespace gr3_projektni_zadatak
                     errorProvider.SetError(textBoxUsername, "Korisnik sa tim korisničkim imenom ne postoji.");
                 }
                 else{
-                    reader.Read();
-                    
+                    // cuvamo userId za forme u buducnosti
+                    userId = reader[0].ToString();
+
                     if (password == reader[2].ToString()) {
                         MessageBox.Show("Uspješno ste logovani " + reader[3].ToString());
 

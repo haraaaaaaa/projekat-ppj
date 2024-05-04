@@ -33,10 +33,10 @@
             adminMenuUsers = new ToolStripButton();
             adminMenuProducts = new ToolStripButton();
             groupBox1 = new GroupBox();
-            orderDataGrid = new DataGridView();
-            textBoxID = new TextBox();
-            label1 = new Label();
             buttonDeleteOrder = new Button();
+            label1 = new Label();
+            textBoxID = new TextBox();
+            orderDataGrid = new DataGridView();
             toolStrip1.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)orderDataGrid).BeginInit();
@@ -85,31 +85,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Prikaz / Brisanje Narudzbe";
             // 
-            // orderDataGrid
-            // 
-            orderDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            orderDataGrid.Location = new Point(17, 32);
-            orderDataGrid.Name = "orderDataGrid";
-            orderDataGrid.Size = new Size(404, 108);
-            orderDataGrid.TabIndex = 0;
-            // 
-            // textBoxID
-            // 
-            textBoxID.Location = new Point(92, 150);
-            textBoxID.Name = "textBoxID";
-            textBoxID.PlaceholderText = "ID ?";
-            textBoxID.Size = new Size(59, 23);
-            textBoxID.TabIndex = 1;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(6, 153);
-            label1.Name = "label1";
-            label1.Size = new Size(80, 15);
-            label1.TabIndex = 2;
-            label1.Text = "ID Narudzbe:";
-            // 
             // buttonDeleteOrder
             // 
             buttonDeleteOrder.Location = new Point(163, 150);
@@ -120,6 +95,31 @@
             buttonDeleteOrder.UseVisualStyleBackColor = true;
             buttonDeleteOrder.Click += buttonDeleteOrder_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(6, 153);
+            label1.Name = "label1";
+            label1.Size = new Size(80, 15);
+            label1.TabIndex = 2;
+            label1.Text = "ID Narudzbe:";
+            // 
+            // textBoxID
+            // 
+            textBoxID.Location = new Point(92, 150);
+            textBoxID.Name = "textBoxID";
+            textBoxID.PlaceholderText = "ID ?";
+            textBoxID.Size = new Size(59, 23);
+            textBoxID.TabIndex = 1;
+            // 
+            // orderDataGrid
+            // 
+            orderDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            orderDataGrid.Location = new Point(17, 32);
+            orderDataGrid.Name = "orderDataGrid";
+            orderDataGrid.Size = new Size(404, 108);
+            orderDataGrid.TabIndex = 0;
+            // 
             // orderManagementAdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -129,6 +129,7 @@
             Controls.Add(toolStrip1);
             Name = "orderManagementAdminForm";
             Text = "Upravljanje Narudzbama";
+            Load += orderManagementAdminForm_Load;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             groupBox1.ResumeLayout(false);

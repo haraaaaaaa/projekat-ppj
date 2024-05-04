@@ -55,7 +55,6 @@ namespace gr3_projektni_zadatak
                 connection.Open();
 
                 MySqlDataAdapter dataAdapter = new MySqlDataAdapter(query, connection); 
-                
                 DataTable table = new DataTable();
                 dataAdapter.Fill(table);
                 productGridView.DataSource = table;

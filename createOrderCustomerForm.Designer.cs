@@ -127,6 +127,7 @@
             buttonRemoveFromCart.TabIndex = 9;
             buttonRemoveFromCart.Text = "Obrisi";
             buttonRemoveFromCart.UseVisualStyleBackColor = true;
+            buttonRemoveFromCart.Click += buttonRemoveFromCart_Click;
             // 
             // buttonAddToCart
             // 
@@ -136,6 +137,7 @@
             buttonAddToCart.TabIndex = 8;
             buttonAddToCart.Text = "Dodaj";
             buttonAddToCart.UseVisualStyleBackColor = true;
+            buttonAddToCart.Click += buttonAddToCart_Click;
             // 
             // textBoxQuantity
             // 
@@ -166,6 +168,7 @@
             buttonPlaceOrder.TabIndex = 4;
             buttonPlaceOrder.Text = "Kreiraj narudzbu";
             buttonPlaceOrder.UseVisualStyleBackColor = true;
+            buttonPlaceOrder.Click += buttonPlaceOrder_Click;
             // 
             // label2
             // 

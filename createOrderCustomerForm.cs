@@ -21,7 +21,7 @@ namespace gr3_projektni_zadatak
         {
             try
             {
-                String showProductInCartQuery = "SELECT product_id, title FROM products WHERE product_id = '" + textBoxID.Text + "'";
+                String showProductInCartQuery = "SELECT product_id, title, price FROM products WHERE product_id = '" + textBoxID.Text + "'";
                 String getStorageInfoQuery = "SELECT quantity FROM storage WHERE product_id = '" + textBoxID.Text + "'";
                 String updateStorageInfoQuery = "UPDATE storage SET quantity = quantity - '" + textBoxQuantity.Text + "'";
 
@@ -39,7 +39,7 @@ namespace gr3_projektni_zadatak
                 table.Columns.Add(new DataColumn("colQuantity", typeof(string)));
 
 
-                if (reader.GetInt32(0) > Convert.ToInt32(textBoxQuantity.Text) ) 
+                if (reader.GetInt32(0) > Convert.ToInt32(textBoxQuantity.Text))
                 {
                     MessageBox.Show("Ne posjedujemo toliku kolicinu tog artikla u skladistu, uzmite manju vrijednost.");
                 }
@@ -52,10 +52,15 @@ namespace gr3_projektni_zadatak
                     MySqlCommand showProductInCartCmd = new MySqlCommand(showProductInCartQuery, connection);
 
                     MySqlDataReader dataReader = showProductInCartCmd.ExecuteReader();
+                    int price = dataReader.GetInt32(2);
+                    int quantity = Convert.ToInt32(textBoxQuantity.Text);
+
+                    int totalPrice = (price * quantity) + Convert.ToInt32(textBoxTotalPrice.Text);
 
                     this.cartGrid.Rows.Add(dataReader[0].ToString(), dataReader[1].ToString(), textBoxQuantity.Text);
 
                     MessageBox.Show("Uspjesno ste dodali artikal u korpu!");
+                    textBoxTotalPrice.Text = totalPrice.ToString();
                 }
 
                 cartGrid.DataSource = table;
@@ -154,6 +159,21 @@ namespace gr3_projektni_zadatak
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void buttonPlaceOrder_Click(object sender, EventArgs e)
+        {
+            placeOrder();
+        }
+
+        private void buttonAddToCart_Click(object sender, EventArgs e)
+        {
+            addToCart();
+        }
+
+        private void buttonRemoveFromCart_Click(object sender, EventArgs e)
+        {
+            removeFromCart();
         }
     }
 }

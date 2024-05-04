@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\ordermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\ordermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:ordermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -41,8 +41,7 @@
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs [Design]",
               "RelativeToolTip": "LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T16:03:20.077Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-04T16:03:20.077Z"
             },
             {
               "$type": "Document",
@@ -53,8 +52,7 @@
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs [Design]",
               "RelativeToolTip": "userManagementAdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:46:04.153Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-04T15:46:04.153Z"
             },
             {
               "$type": "Document",
@@ -66,8 +64,7 @@
               "RelativeToolTip": "orderManagementAdminForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:36:13.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T15:36:13.505Z"
             },
             {
               "$type": "Document",
@@ -77,7 +74,7 @@
               "RelativeDocumentMoniker": "createOrderCustomerForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\createOrderCustomerForm.cs",
               "RelativeToolTip": "createOrderCustomerForm.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAmwH8AAAAjAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAlwK8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T15:34:14.31Z",
               "EditorCaption": ""

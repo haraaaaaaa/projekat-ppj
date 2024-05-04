@@ -26,7 +26,7 @@ namespace gr3_projektni_zadatak
         }
         private void buttonCreateProduct_Click(object sender, EventArgs e)
         {
-
+            createProduct();
         }
         private void buttonUpdateProduct_Click(object sender, EventArgs e)
         {
@@ -35,22 +35,22 @@ namespace gr3_projektni_zadatak
 
         private void findProduct()
         {
-            String query = "SELECT * FROM products";
-
-  
-            if (textBoxIDSearch.Text != "")
-            {
-                query += " WHERE product_id = '" + textBoxIDSearch.Text + "'";
-            }
-            else if(textBoxTitleSearch.Text != "")
-            {
-                query += " AND title LIKE '" + textBoxTitleSearch.Text + "%'";
-            }
-
-            query += " ORDER BY product_id";
-
             try
             {
+                String query = "SELECT * FROM products";
+
+
+                if (textBoxIDSearch.Text != "")
+                {
+                    query += " WHERE product_id = '" + textBoxIDSearch.Text + "'";
+                }
+                else if (textBoxTitleSearch.Text != "")
+                {
+                    query += " AND title LIKE '" + textBoxTitleSearch.Text + "%'";
+                }
+
+                query += " ORDER BY product_id";
+
                 MySqlConnection connection = new MySqlConnection(connString);
                 connection.Open();
 

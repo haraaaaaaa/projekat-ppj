@@ -37,26 +37,26 @@ namespace gr3_projektni_zadatak
         }
 
         private void findUser()
-        {
-            String query = "SELECT * FROM users WHERE user_id > 1" ;
-
-            if (textBoxIDSearch.Text != "")
-            {
-                query += "AND user_id = '" + textBoxIDSearch.Text + "'";
-            }
-            else if (textBoxNameSearch.Text != "")
-            {
-                query += "AND name LIKE '" + textBoxNameSearch.Text + "%'";
-            }
-            else if (textBoxSurnameSearch.Text != "")
-            {
-                query += "AND surname LIKE '" + textBoxSurnameSearch.Text + "%'";
-            }
-
-            query += " ORDER BY user_id";
-
+        { 
             try
             {
+                String query = "SELECT * FROM users WHERE user_id > 1";
+
+                if (textBoxIDSearch.Text != "")
+                {
+                    query += "AND user_id = '" + textBoxIDSearch.Text + "'";
+                }
+                else if (textBoxNameSearch.Text != "")
+                {
+                    query += "AND name LIKE '" + textBoxNameSearch.Text + "%'";
+                }
+                else if (textBoxSurnameSearch.Text != "")
+                {
+                    query += "AND surname LIKE '" + textBoxSurnameSearch.Text + "%'";
+                }
+
+                query += " ORDER BY user_id";
+
                 MySqlConnection conn = new MySqlConnection(connString);
                 conn.Open();
 
@@ -76,11 +76,11 @@ namespace gr3_projektni_zadatak
 
         private void createUser()
         {
+            try
+            {
             String query = "INSERT INTO users(name, surname, city, address, phone, username, password) VALUES " +
                     " ('" + textBoxName.Text + "', '" + textBoxSurname.Text + "', '" + textBoxCity.Text + "', '" + textBoxAddress.Text + "', '" + textBoxPhone.Text + "', '" + textBoxUsername.Text + "', '" + textBoxPassword.Text + "' )";
 
-            try
-            {
                 MySqlConnection connection = new MySqlConnection(connString);
                 connection.Open();
 
@@ -99,12 +99,11 @@ namespace gr3_projektni_zadatak
 
         private void updateUser()
         {
+            try
+            {
             String query = "UPDATE users" +
                 "SET name = '" + textBoxName.Text + "', surname = '" + textBoxSurname.Text + "', city = '" + textBoxCity.Text + "', address = '" + textBoxAddress.Text +
                 "', phone = '" + textBoxPhone.Text + "', username = '" + textBoxUsername.Text + "', password = '" + textBoxPassword.Text + "'";
-
-            try
-            {
                 MySqlConnection connection = new MySqlConnection(connString);
                 connection.Open();
 

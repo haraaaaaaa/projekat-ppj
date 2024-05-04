@@ -15,15 +15,15 @@ namespace gr3_projektni_zadatak
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            /*ErrorProvider errorProvider = new ErrorProvider();
+            ErrorProvider errorProvider = new ErrorProvider();
             errorProvider.Clear();
 
-            String username = textBoxUsername.Text;
-            String password = textBoxPassword.Text;
-
-            String query = "SELECT user_id, username, password, CONCAT(name, ' ', surname) FROM users WHERE username = '" + username + "' ";
-
             try {
+                String username = textBoxUsername.Text;
+                String password = textBoxPassword.Text;
+
+                String query = "SELECT user_id, username, password, CONCAT(name, ' ', surname) FROM users WHERE username = '" + username + "' ";
+
                 MySqlConnection conn = new MySqlConnection(connString);
                 conn.Open();
 
@@ -43,12 +43,12 @@ namespace gr3_projektni_zadatak
 
                         if (reader[0].ToString() == "1") {
                             this.Hide();
-                            AdminForm adminForm = new AdminForm();
+                            userManagementAdminForm adminForm = new userManagementAdminForm();
                             adminForm.Show();
                         }
                         else {
                             this.Hide();
-                            CustomerForm customerForm = new CustomerForm();
+                            createOrderCustomerForm customerForm = new createOrderCustomerForm();
                             customerForm.Show();
                         }
                     } 
@@ -62,11 +62,7 @@ namespace gr3_projektni_zadatak
             }
             catch (Exception ex) {
                 MessageBox.Show(ex.Message);
-            }*/
-
-            createOrderCustomerForm customerForm = new createOrderCustomerForm();
-            customerForm.Show();
-            this.Hide();
+            }
         }
     }
 }

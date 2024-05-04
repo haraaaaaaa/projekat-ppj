@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Projects\\gr3-projektni-zadatak\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\viewordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:viewordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:createordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:usermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|C:\\Projects\\gr3-projektni-zadatak\\ordermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:ordermanagementadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|c:\\projects\\gr3-projektni-zadatak\\viewordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9B3B5B-B5D2-499B-BE4C-3414317314BC}|gr3-projektni-zadatak.csproj|solutionrelative:viewordercustomerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,65 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T16:03:20.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "userManagementAdminForm.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs",
-              "RelativeDocumentMoniker": "userManagementAdminForm.cs",
-              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\userManagementAdminForm.cs [Design]",
-              "RelativeToolTip": "userManagementAdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:46:04.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "orderManagementAdminForm.cs",
-              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\orderManagementAdminForm.cs",
-              "RelativeDocumentMoniker": "orderManagementAdminForm.cs",
-              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\orderManagementAdminForm.cs",
-              "RelativeToolTip": "orderManagementAdminForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:36:13.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "createOrderCustomerForm.cs",
               "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\createOrderCustomerForm.cs",
               "RelativeDocumentMoniker": "createOrderCustomerForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\createOrderCustomerForm.cs",
               "RelativeToolTip": "createOrderCustomerForm.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAlwK8AAAAdAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAIwH0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:34:14.31Z",
+              "WhenOpened": "2024-05-04T17:04:04.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "createOrderCustomerForm.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\createOrderCustomerForm.cs",
               "RelativeDocumentMoniker": "createOrderCustomerForm.cs",
               "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\createOrderCustomerForm.cs [Design]",
               "RelativeToolTip": "createOrderCustomerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:28:55.797Z",
+              "WhenOpened": "2024-05-04T17:04:03.023Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "viewOrderCustomerForm.cs",
+              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\viewOrderCustomerForm.cs",
+              "RelativeDocumentMoniker": "viewOrderCustomerForm.cs",
+              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\viewOrderCustomerForm.cs",
+              "RelativeToolTip": "viewOrderCustomerForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T16:50:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "viewOrderCustomerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\gr3-projektni-zadatak\\viewOrderCustomerForm.cs",
+              "RelativeDocumentMoniker": "viewOrderCustomerForm.cs",
+              "ToolTip": "C:\\Projects\\gr3-projektni-zadatak\\viewOrderCustomerForm.cs [Design]",
+              "RelativeToolTip": "viewOrderCustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T16:49:30.339Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -33,7 +33,7 @@ namespace gr3_projektni_zadatak
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
-            
+            updateUser();
         }
 
         private void findUser()
@@ -46,11 +46,11 @@ namespace gr3_projektni_zadatak
             }
             else if (textBoxNameSearch.Text != "")
             {
-                query += "AND name LIKE '" + textBoxNameSearch.Text + "'";
+                query += "AND name LIKE '" + textBoxNameSearch.Text + "%'";
             }
             else if (textBoxSurnameSearch.Text != "")
             {
-                query += "AND surname LIKE '" + textBoxSurnameSearch.Text + "'";
+                query += "AND surname LIKE '" + textBoxSurnameSearch.Text + "%'";
             }
 
             query += " ORDER BY user_id";

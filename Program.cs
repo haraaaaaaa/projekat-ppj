@@ -1,5 +1,6 @@
 namespace gr3_projektni_zadatak
 {
+    /* https://github.com/haraaaaaaa/projekat-ppj */
     internal static class Program
     {
         /// <summary>

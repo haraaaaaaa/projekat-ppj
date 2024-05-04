@@ -30,7 +30,7 @@ namespace gr3_projektni_zadatak
         }
         private void buttonUpdateProduct_Click(object sender, EventArgs e)
         {
-
+            updateProduct();
         }
 
         private void findProduct()
@@ -101,6 +101,36 @@ namespace gr3_projektni_zadatak
                 MessageBox.Show(ex.Message);
             }
 
+        }
+
+        private void updateProduct()
+        {
+            try
+            {
+                String updateProductQuery = "UPDATE products" +
+                "SET title = '" + textBoxTitle.Text + "', type = '" + textBoxType.Text + "', price = '" + textBoxPrice.Text + "'" +
+                "WHERE product_id = '" + textBoxID.Text + "'";
+
+                String updateQuantityQuery = "UPDATE storage" +
+                "SET quantity = quantity + '" + addQuantity.Value.ToString() + "' " +
+                "WHERE product_id = '" + textBoxID.Text + "'";
+
+                MySqlConnection connection = new MySqlConnection(connString);
+                connection.Open();
+
+                MySqlCommand updateProductCmd = new MySqlCommand(updateProductQuery, connection);
+                updateProductCmd.ExecuteNonQuery();
+
+                MySqlCommand updateQuantityCmd = new MySqlCommand(updateQuantityQuery, connection);
+                updateQuantityCmd.ExecuteNonQuery();
+
+                connection.Close();
+                MessageBox.Show("Artikal i njegova kolicina u skladistu uspjesno azurirani!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void adminMenuUsers_Click(object sender, EventArgs e)

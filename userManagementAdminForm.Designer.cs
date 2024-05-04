@@ -322,7 +322,7 @@
             Controls.Add(groupBox);
             Controls.Add(adminMenu);
             Name = "userManagementAdminForm";
-            Text = "Upravljanje korisnicima";
+            Text = "Upravljanje Korisnicima";
             adminMenu.ResumeLayout(false);
             adminMenu.PerformLayout();
             groupBox.ResumeLayout(false);

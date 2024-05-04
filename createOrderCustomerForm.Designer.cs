@@ -52,14 +52,14 @@
             customerMenuShowOrders.Size = new Size(93, 22);
             customerMenuShowOrders.Text = "Prikaz Narudzbi";
             // 
-            // CustomerForm
+            // createOrderCustomerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(314, 211);
             Controls.Add(customerMenu);
-            Name = "CustomerForm";
-            Text = "Kreiranje narudzbe";
+            Name = "createOrderCustomerForm";
+            Text = "Kreiranje Narudzbe";
             customerMenu.ResumeLayout(false);
             customerMenu.PerformLayout();
             ResumeLayout(false);

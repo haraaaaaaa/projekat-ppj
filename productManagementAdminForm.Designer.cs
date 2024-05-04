@@ -273,7 +273,7 @@
             Controls.Add(groupBox);
             Controls.Add(adminMenu);
             Name = "productManagementAdminForm";
-            Text = "productManagementAdminForm";
+            Text = "Upravljanje Artiklima";
             adminMenu.ResumeLayout(false);
             adminMenu.PerformLayout();
             groupBox.ResumeLayout(false);

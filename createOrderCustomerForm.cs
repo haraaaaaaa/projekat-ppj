@@ -39,12 +39,14 @@ namespace gr3_projektni_zadatak
                 table.Columns.Add(new DataColumn("colQuantity", typeof(string)));
 
 
-                if (reader.GetInt32(0) > Convert.ToInt32(textBoxQuantity.Text))
+                if (Convert.ToInt32(reader[0].ToString()) < Convert.ToInt32(textBoxQuantity.Text))
                 {
                     MessageBox.Show("Ne posjedujemo toliku kolicinu tog artikla u skladistu, uzmite manju vrijednost.");
+                    reader.Dispose();
                 }
                 else
                 {
+                    reader.Dispose();
 
                     MySqlCommand updateStorageInfoCmd = new MySqlCommand(updateStorageInfoQuery, connection);
                     updateStorageInfoCmd.ExecuteNonQuery();

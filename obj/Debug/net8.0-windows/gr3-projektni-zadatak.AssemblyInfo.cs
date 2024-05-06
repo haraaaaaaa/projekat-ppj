@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gr3-projektni-zadatak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ccfcbe8b991b2a9cf816382ba040561dd2db944")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+043cae81c61abff7b56a6961d99a9cc5ca702b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("gr3-projektni-zadatak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gr3-projektni-zadatak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

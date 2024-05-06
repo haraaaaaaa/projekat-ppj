@@ -31,7 +31,6 @@ namespace gr3_projektni_zadatak
                 MySqlDataReader reader = cmd.ExecuteReader();
                 reader.Read();
 
-                MessageBox.Show(reader[0].ToString() + reader[1].ToString() + reader[2].ToString() + reader[3].ToString());
 
                 if (!reader.HasRows) {
                     errorProvider.SetError(textBoxUsername, "Korisnik sa tim korisničkim imenom ne postoji.");
